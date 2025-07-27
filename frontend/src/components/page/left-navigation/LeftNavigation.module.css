@@ -1,0 +1,96 @@
+.block {
+    display: flex;
+    width: 250px;
+    height: calc(100vh - 90px);
+    background: #F8F9FD;
+    box-sizing: border-box;
+    padding: 70px 40px;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    transition: all 0.3s ease;
+    overflow-y: auto; /* Весь блок теперь скроллится */
+    overflow-x: hidden;
+}
+
+.block.collapsed {
+    width: 50px;
+    padding: 70px 10px;
+}
+
+.arrow {
+    position: absolute;
+    top: 15px;
+    right: -5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    padding: 5px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.city {
+    position: relative;
+    width: 170px;
+    margin-bottom: 40px;
+}
+
+.photoCity {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 170px;
+    background-color: #1C2135;
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 0.85;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+    padding: 5px 0;
+}
+
+.leftNav {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leftNav li a {
+    font-size: 16px;
+    font-weight: 800;
+    position: relative;
+}
+
+.leftNav li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background: #1C2135;
+    transition: width 0.3s ease;
+}
+
+.leftNav li a.active::after {
+    width: 100%;
+}

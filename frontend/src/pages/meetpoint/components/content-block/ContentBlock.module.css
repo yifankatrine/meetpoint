@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    width: 740px;
+    flex-direction: column;
+}
+
+.title{
+    color: #1C2135;
+    font-size: 30px;
+}
+
+h4{
+    color: #1C2135;
+    font-weight: 400;
+}
+
+h2{
+    color: #1C2135;
+    font-weight: 600;
+}
+
+.description{
+    font-size: 18px;
+    margin: 20px 0 40px 0;
+}
+
+.infoBlock{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.modalContent{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 30px;
+}
+
+

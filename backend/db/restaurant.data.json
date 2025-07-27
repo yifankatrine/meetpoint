@@ -1,0 +1,17 @@
+[
+  {
+    "restaurantId": 2,
+    "name": "Суши-бар «Сакура»",
+    "description": "Японская кухня и живая музыка по вечерам",
+    "address": "пр. Восточный, 12",
+    "openingTime": "12:00-00:00",
+    "categories": [
+      "japanese",
+      "sushi",
+      "asian"
+    ],
+    "images": [
+      "/img/restaurants/sakura1.jpg"
+    ]
+  }
+]

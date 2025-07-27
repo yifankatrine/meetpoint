@@ -1,0 +1,39 @@
+.form-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #00ffbf;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #01F1CF, #00D3FC);
+}
+
+.form-page__window{
+    border-radius: 30px;
+    width: 570px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-page__text{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.form-page__line{
+    width: 405px;
+    height: 5px;
+    background: linear-gradient(to right, #4DC93D, #3BD6F5);
+}
+
+.form-page__social{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}

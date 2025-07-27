@@ -1,0 +1,21 @@
+.photos{
+    display: flex;
+    gap: 17.24px;
+    width: 500px;
+    flex-direction: column;
+
+}
+
+.miniPhotos{
+    display: flex;
+    gap: 17.24px;
+    flex-direction: row;
+}
+
+.bigPhoto{
+    border-radius: 16px;
+}
+
+.miniPhoto{
+    border-radius: 8px;
+}

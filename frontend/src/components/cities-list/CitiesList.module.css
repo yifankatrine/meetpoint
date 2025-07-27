@@ -1,0 +1,10 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Две колонки */
+    gap: 50px; /* Отступ между карточками */
+    padding: 20px;
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    margin: 30px auto; /* Центрирование */
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+.myBanner {
+    position: relative;
+    display: block;
+    align-items: center;
+    border: none;
+    padding: 0;
+    margin-top: 100px;
+    background: transparent;
+    cursor: pointer;
+    max-width: 1200px;
+}
+
+.bannerImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contentWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    align-items: end;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}

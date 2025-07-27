@@ -1,0 +1,11 @@
+.back{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 12.1px;
+}
+
+.txtBack{
+    color: #97A1AF;
+}

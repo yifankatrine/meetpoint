@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.window{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1289px;
+    height: 770px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container h1 {
+    max-width: 600px;
+    font-size: 2.5rem;
+    color: #1C2135;
+    line-height: 40px;
+}
+
+.container a {
+    color: #00A2FF;
+    font-weight: bold;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}

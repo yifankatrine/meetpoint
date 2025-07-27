@@ -1,0 +1,15 @@
+.tape-page {
+    display: flex;
+    min-height: calc(100vh - 90px);
+    margin-top: 190px;
+}
+
+.tape-page__content {
+    flex: 1;
+    margin-left: 250px;
+    transition: margin-left 0.3s ease;
+}
+
+.tape-page.collapsed .tape-page__content {
+    margin-left: 50px;
+}

@@ -1,0 +1,14 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    max-height: 570px; /* 3 карточки + отступы */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.clickableItem {
+    cursor: pointer;
+}

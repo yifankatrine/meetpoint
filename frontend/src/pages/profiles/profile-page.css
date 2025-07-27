@@ -1,0 +1,419 @@
+.profile-room__profile-room {
+    min-height: calc(100vh - 90px);
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f2f5;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -8px;
+}
+
+.profile-room__logout-button {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #ffffff;
+    font-weight: bolder;
+    color: #1C2135;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 18px;
+    width: 70px;
+    margin-bottom: 30px;
+    margin-left: 320px;
+}
+
+.profile-room__exit {
+    margin-left: 12px;
+}
+
+.profile-room__profile-background {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.profile-room__gradient-shape {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #01E8EC, #02F1E5, #02FFDA);
+    z-index: 11;
+    clip-path: polygon(
+            0 0,
+            100% 0,
+            100% 70%,
+            0 100%
+    );
+}
+
+.profile-room__photo-container {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin-left: -620px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    background-color: #fff;
+    cursor: default;
+    z-index: 5;
+    margin-top: 100px;
+}
+
+.profile-room__photo-container.editing {
+    cursor: crosshair;
+    border: 5px dashed #4CAF50;
+}
+
+.profile-room__user-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.profile-room__sticker {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.profile-room__sticker:hover {
+    border-color: #ffffff;
+}
+
+.profile-room__gradient-background {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(135deg, #01E8EC, #02F1E5, #02FFDA);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    z-index: 1; /* Самый низкий z-index */
+}
+
+.profile-room__content-wrapper {
+    position: relative;
+    z-index: 10; /* Выше фона */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.profile-room__photo-container-wrapper {
+    position: relative;
+    z-index: 15; /* Еще выше */
+    margin-bottom: 20px;
+}
+
+
+.profile-room__profile-info-card {
+    width: 90%;
+    max-width: 1089px;
+    height: 310px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 4;
+    margin-top: 170px;
+}
+
+.profile-room__profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-room__name {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-room__name-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 13px;
+    margin-left: 180px;
+
+}
+
+.profile-room__name-display {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-room__name-display h2 {
+    margin: 0;
+    font-family: "Open Sans", Bold;
+    font-weight: bolder;
+    color: #1C2135;
+    font-size: 36px;
+}
+
+.rokky-mitty__pencil {
+    width: 25px;
+    margin-left: 7px;
+    margin-top: 2px;
+}
+
+.profile-room__lenta {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-room__name-edit {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-room__name-input {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 36px;
+    text-align: center;
+    max-width: 250px;
+}
+
+.profile-room__edit-name-button {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    transition: color 0.2s;
+    margin-top: 3px;
+}
+
+.profile-room__save-name-button {
+    background: #4cafaf;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.profile-room__save-name-button:hover {
+    background: #0bccea;
+}
+
+.profile-room__premium {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: none;
+    cursor: pointer;
+}
+
+.profile-room__username {
+    margin: 0 0 20px 0;
+    color: #666;
+    font-size: 20px;
+    font-family: "Open Sans", Bold;
+    font-weight: bold;
+    margin-left: 179px;
+    margin-bottom: 30px;
+}
+
+.profile-room__section {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.profile-room__status-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+}
+
+.profile-room__status {
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    min-width: 390px;
+    height: 40px;
+    padding-bottom: 24px;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: transparent;
+    border-radius: 20px;
+    background-color: #1C2135;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-room__status::before {
+    content: attr(data-text);
+    position: absolute;
+    background: linear-gradient(-50deg, #F7FF01, #FFFFFF, #F8FF35, #FFFFFF, #F8FF35);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-room__premium-badge {
+    padding: 3px 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Open Sans", Bold;
+    font-weight: 900;
+    font-size: 36px;
+    background: linear-gradient(90deg, #11E5ED, #1734F2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.profile-room__bt {
+    font-size: 18px;
+    font-family: "Open Sans", Bold;
+    font-weight: bold;
+    color: #ff0404;
+}
+
+.profile-room__make {
+    margin-bottom: 10px;
+}
+
+.profile-room__bt2 {
+    font-size: 18px;
+    font-family: "Open Sans", Bold;
+    font-weight: bold;
+    color: #ff0404;
+    margin-top: -2px;
+    margin-bottom: 10px;
+}
+
+.profile-room__friends {
+    margin-bottom: 5px;
+}
+
+.profile-room__bt3 {
+    font-size: 18px;
+    font-family: "Open Sans", Bold;
+    font-weight: bold;
+    color: #ff0404;
+    margin-top: -15px;
+    margin-left: -30px;
+}
+
+.profile-room__image {
+    margin-bottom: -10px;
+}
+
+.profile-room__action-button.change-photo {
+    background-color: #0cedbc;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+    width: 390px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.profile-room__action-button.change-photo:hover {
+    background-color: #07ccd6;
+}
+
+.profile-room__action-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.profile-room__lenta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-room__action-button.small {
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 15px;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.profile-room__action-button.small:hover {
+    background-color: transparent;
+}
+
+.profile-room__buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.profile-room__action-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-room__action-button.secondary {
+    background-color: #2196F3;
+}
+
+.profile-room__action-button.secondary:hover {
+    background-color: #0b7dda;
+}

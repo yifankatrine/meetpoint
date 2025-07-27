@@ -1,0 +1,12 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 9px;
+    width: 100%;
+    height: 54px;
+    padding: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #CECECE;
+    background: #F8F9FD;
+}

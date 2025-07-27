@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "firstName": "Виталий",
+    "secondName": "Лим",
+    "birth": "2005-02-26",
+    "phone": "+7 (960) 974-03-57",
+    "login": "yifanset",
+    "hashPassword": "qwerty1234",
+    "role": "admin",
+    "createdAt": "2025-07-23T16:30:12.478Z",
+    "updatedAt": "2025-07-23T16:30:12.478Z"
+  },
+  {
+    "id": 2,
+    "firstName": "Окей",
+    "secondName": "Океюшкин",
+    "birth": "2025-07-02",
+    "phone": "+7 993 571 03 57",
+    "login": "test",
+    "hashPassword": "qwerty",
+    "role": "user",
+    "createdAt": "2025-07-23T16:59:17.225Z",
+    "updatedAt": "2025-07-23T16:59:17.225Z"
+  },
+  {
+    "id": 3,
+    "firstName": "Виталий",
+    "secondName": "Кряк",
+    "birth": "2025-07-05",
+    "phone": "+7 993 571 03 57",
+    "login": "ivan.petrovssss",
+    "hashPassword": "123456",
+    "role": "user",
+    "createdAt": "2025-07-23T17:04:30.664Z",
+    "updatedAt": "2025-07-23T17:04:30.664Z"
+  },
+  {
+    "id": 4,
+    "firstName": "Виталий",
+    "secondName": "Океюшкин",
+    "birth": "2025-07-03",
+    "phone": "+7 (960) 974-03-57",
+    "login": "aeten33333",
+    "hashPassword": "123456",
+    "role": "user",
+    "createdAt": "2025-07-23T17:06:08.991Z",
+    "updatedAt": "2025-07-23T17:06:08.991Z"
+  },
+  {
+    "id": 5,
+    "firstName": "Виталий",
+    "secondName": "Океюшкин",
+    "birth": "2025-07-04",
+    "phone": "+7 993 571 03 57",
+    "login": "yifanseticss",
+    "hashPassword": "123456",
+    "role": "user",
+    "createdAt": "2025-07-23T17:09:26.539Z",
+    "updatedAt": "2025-07-23T17:09:26.539Z"
+  },
+  {
+    "id": 6,
+    "firstName": "Окей",
+    "secondName": "апвафвф",
+    "birth": "2025-07-03",
+    "phone": "+7 993 571 03 57",
+    "login": "afhkadfdafda",
+    "hashPassword": "123456",
+    "role": "user",
+    "createdAt": "2025-07-23T17:11:31.272Z",
+    "updatedAt": "2025-07-23T17:11:31.272Z"
+  },
+  {
+    "id": 7,
+    "firstName": "бляяяяяя",
+    "secondName": "яяя",
+    "birth": "2025-07-03",
+    "phone": "+7 (960) 974-03-57",
+    "login": "afafadfafad",
+    "hashPassword": "123456",
+    "role": "user",
+    "createdAt": "2025-07-23T17:13:18.506Z",
+    "updatedAt": "2025-07-23T17:13:18.506Z"
+  },
+  {
+    "id": 8,
+    "firstName": "яячсм",
+    "secondName": "вфавфавф",
+    "birth": "2025-07-03",
+    "phone": "+7 993 571 03 57",
+    "login": "qwerty",
+    "hashPassword": "qwerty",
+    "role": "user",
+    "createdAt": "2025-07-24T14:58:47.378Z",
+    "updatedAt": "2025-07-24T14:58:47.378Z"
+  },
+  {
+    "id": 9,
+    "firstName": "Окей",
+    "secondName": "Океюшкин",
+    "birth": "2025-07-05",
+    "phone": "+7 993 571 03 57",
+    "login": "poiop",
+    "hashPassword": "qwerty",
+    "role": "user",
+    "createdAt": "2025-07-24T15:02:39.299Z",
+    "updatedAt": "2025-07-24T15:02:39.299Z"
+  },
+  {
+    "id": 10,
+    "firstName": "Окей",
+    "secondName": "Кряк",
+    "birth": "11221111",
+    "phone": "9935710357",
+    "login": "fkhjkdf",
+    "hashPassword": "123456",
+    "role": "user",
+    "createdAt": "2025-07-25T10:11:15.834Z",
+    "updatedAt": "2025-07-25T10:11:15.834Z"
+  }
+]

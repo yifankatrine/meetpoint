@@ -1,0 +1,37 @@
+.navigation {
+    display: flex;
+    padding: 1rem 2rem;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    gap: 1.5rem;
+}
+
+.tab {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #6c757d;
+    padding: 0.5rem 0;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.tab:hover {
+    color: #495057;
+}
+
+.active {
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #0d6efd;
+}

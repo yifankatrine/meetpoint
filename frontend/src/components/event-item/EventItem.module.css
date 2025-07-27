@@ -1,0 +1,29 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.address{
+    font-weight: 400;
+    max-width: 163px;
+}

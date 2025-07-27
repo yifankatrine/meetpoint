@@ -1,0 +1,41 @@
+.authorization-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #00ffbf;
+    background: linear-gradient(45deg, #01F1CF, #00D3FC);
+}
+
+.authorization-page__window{
+    border-radius: 30px;
+    width: 540px;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 60px;
+    margin: 50px 0 0;
+    gap: 20px;
+}
+.authorization-page__title{
+    margin-bottom: 5px;
+    width: 400px;
+}
+.authorization-page__text{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.authorization-page__line{
+    height: 5px;
+    background: linear-gradient(to right, #4DC93D, #3BD6F5);
+}
+
+.authorization-page__social{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}

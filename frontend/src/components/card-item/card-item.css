@@ -1,0 +1,38 @@
+ .card-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border-radius: 26px;
+}
+
+ .card-item__address, .card-item__text2, .card-item__text1{
+     font-family: 'Manrope', sans-serif;
+ }
+
+.card-item__text1{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.card-item__text2{
+    display: -webkit-box;
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bottomBlock{
+    margin-top: auto;
+
+}

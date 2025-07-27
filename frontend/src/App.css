@@ -1,0 +1,16 @@
+.text1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+    max-width: 716px;
+    color: #ffffff;
+}
+
+.text2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    max-width: 500px;
+}

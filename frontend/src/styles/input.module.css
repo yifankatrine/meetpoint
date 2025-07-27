@@ -1,0 +1,31 @@
+.form{
+    align-items: center;
+}
+.inputGroup{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #F1F1F1;
+    max-width: 410px;
+}
+
+.inputLabel{
+    margin-left: 10px;
+}
+
+.example{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.inputTitle{
+    font-size: 24px;
+}

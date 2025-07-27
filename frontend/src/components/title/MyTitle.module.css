@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line{
+    content: '';
+    width: 500px;
+    margin-top: 10px;
+    height: 3px;
+    background: #1C2135;
+}
+
+.text{
+    font-size: 50px;
+    color: #1C2135;
+}

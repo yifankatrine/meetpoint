@@ -1,0 +1,72 @@
+[
+  {
+    "meetpointId": 1,
+    "title": "Собеседование №1. Очно.",
+    "description": "Описание первого собеседования",
+    "address": "Красноармейская улица, 146",
+    "date": "2025-07-24",
+    "time": "19:00",
+    "images": [],
+    "eventHostId": 1,
+    "maxMembers": 10,
+    "membersId": [
+      null,
+      null,
+      13,
+      1,
+      2
+    ],
+    "createdAt": "2025-07-24T16:47:44.626Z",
+    "updatedAt": "2025-07-25T09:58:54.965Z"
+  },
+  {
+    "meetpointId": 2,
+    "title": "Собеседование №2. Очно.",
+    "description": "Описание второго собеседования",
+    "address": "Красноармейская улица, 147",
+    "date": "2025-07-24",
+    "time": "19:00",
+    "images": [],
+    "eventHostId": 1,
+    "maxMembers": 10,
+    "membersId": [
+      4,
+      5,
+      7
+    ],
+    "createdAt": "2025-07-24T16:50:51.528Z",
+    "updatedAt": "2025-07-25T10:12:08.432Z"
+  },
+  {
+    "meetpointId": 3,
+    "title": "Собеседование №3. Очно.",
+    "description": "Описание третьего собеседования",
+    "address": "улица Нахимова, 8/4",
+    "date": "2025-07-24",
+    "time": "19:00",
+    "images": [],
+    "eventHostId": 5,
+    "maxMembers": 10,
+    "membersId": [
+      3
+    ],
+    "createdAt": "2025-07-24T16:51:24.376Z",
+    "updatedAt": "2025-07-25T09:59:30.546Z"
+  },
+  {
+    "meetpointId": 4,
+    "title": "Собеседование №4. ",
+    "description": "Онлайн собеседование.",
+    "address": "Онлайн.",
+    "date": "2025-07-24",
+    "time": "19:00",
+    "images": [],
+    "eventHostId": 6,
+    "maxMembers": 10,
+    "membersId": [
+      6
+    ],
+    "createdAt": "2025-07-24T16:52:01.499Z",
+    "updatedAt": "2025-07-25T10:10:13.587Z"
+  }
+]

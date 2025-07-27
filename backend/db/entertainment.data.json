@@ -1,0 +1,51 @@
+[
+  {
+    "entertainmentId": 5,
+    "name": "dfada",
+    "description": "dafdaf",
+    "address": "dadfafda",
+    "openingTime": "dafda",
+    "categories": [],
+    "images": []
+  },
+  {
+    "entertainmentId": 4,
+    "name": "adfdafda",
+    "description": "dfafaddfa",
+    "address": "adfdadfa",
+    "openingTime": "dafdfaafd",
+    "categories": [],
+    "images": []
+  },
+  {
+    "entertainmentId": 3,
+    "name": "dafdafda",
+    "description": "adffdafda",
+    "address": "dafdadfafd",
+    "openingTime": "12:00-18:30",
+    "categories": [],
+    "images": []
+  },
+  {
+    "entertainmentId": 1,
+    "name": "Кинотеатр «Космос»",
+    "description": "Современный кинотеатр с 8 залами и кафе",
+    "address": "ул. Кинотеатральная, 15",
+    "openingTime": "10:00-02:00",
+    "categories": [
+    ],
+    "images": [
+    ]
+  },
+  {
+    "entertainmentId": 2,
+    "name": "Боулинг-клуб «Страйк»",
+    "description": "12 дорожек для боулинга с баром",
+    "address": "пр. Развлекательный, 42",
+    "openingTime": "12:00-00:00",
+    "categories": [
+    ],
+    "images": [
+    ]
+  }
+]
