@@ -28,7 +28,7 @@ const EventsList = () => {
     useEffect(() => {
         const fetchEvents = async () => {
             try {
-                const response = await axios.get<ApiResponse>('http://localhost:5000/api/events');
+                const response = await axios.get<ApiResponse>('http://79.141.66.4:5000/api/events');
 
                 if (response.data.success) {
                     setEvents(response.data.events);
