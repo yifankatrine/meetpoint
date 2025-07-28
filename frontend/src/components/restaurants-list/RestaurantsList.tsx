@@ -27,7 +27,7 @@ const RestaurantsList = () => {
     useEffect(() => {
         const fetchRestaurants = async () => {
             try {
-                const response = await axios.get<ApiResponse>('http://localhost:5000/api/restaurants');
+                const response = await axios.get<ApiResponse>('http://31.129.58.91:5000/api/restaurants');
 
                 if (response.data.success) {
                     setRestaurants(response.data.restaurants);

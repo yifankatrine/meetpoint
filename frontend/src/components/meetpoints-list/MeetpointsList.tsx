@@ -32,7 +32,7 @@ const MeetpointsList = () => {
     useEffect(() => {
         const fetchMeetpoints = async () => {
             try {
-                const response = await axios.get<ApiResponse>('http://localhost:5000/api/meetpoints');
+                const response = await axios.get<ApiResponse>('http://31.129.58.91:5000/api/meetpoints');
                 if (response.data.success) {
                     setMeetpoints(response.data.meetpoints);
                 } else {

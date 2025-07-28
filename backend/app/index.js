@@ -6,7 +6,7 @@ dotenv.config();
 
 import router from "../routes/routes.js";
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 5000;
 
 
 const app = express();
@@ -18,14 +18,6 @@ app.use(cookieParser());
 
 app.use('/api', router);
 
-// const allowedIP = '192.168.150.129';
-//
-// app.use(
-//     cors({
-//       origin: `http://${allowedIP}`,
-//       optionsSuccessStatus: 200,
-//     })
-// );
 
 app.get('/', (req, res) => {
   res.send('Server start :)');

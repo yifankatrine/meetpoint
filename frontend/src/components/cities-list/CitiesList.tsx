@@ -27,7 +27,7 @@ const CitiesList = () => {
     useEffect(() => {
         const fetchCities = async () => {
             try {
-                const response = await axios.get<ApiResponse>('http://localhost:5000/api/cities');
+                const response = await axios.get<ApiResponse>('http://31.129.58.91:5000/api/cities');
 
                 if (response.data.success) {
                     setCities(response.data.cities);

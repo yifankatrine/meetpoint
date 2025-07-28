@@ -23,7 +23,7 @@ const AuthorizationPage = () => {
         setError("");
 
         try {
-            const response = await axios.post("http://localhost:5000/api/login", {
+            const response = await axios.post("http://31.129.58.91:5000/api/login", {
                 login,
                 password
             });

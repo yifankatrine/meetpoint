@@ -11,7 +11,7 @@ const ProfilePage = () => {
     const [error, setError] = useState<string | null>(null);
 
     const api = axios.create({
-        baseURL: 'http://localhost:5000/api',
+        baseURL: 'http://31.129.58.91:5000/api',
         headers: {
             'Content-Type': 'application/json',
         }

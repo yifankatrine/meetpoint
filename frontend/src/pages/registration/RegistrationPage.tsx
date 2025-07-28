@@ -45,7 +45,7 @@ const RegistrationPage = () => {
         setLoading(true);
 
         try {
-            await axios.post('http://localhost:5000/api/registration', {
+            await axios.post('http://31.129.58.91:5000/api/registration', {
                 firstName: newUser.firstName,
                 secondName: newUser.secondName,
                 phone: newUser.phone.replace(/\D/g, '').replace(/^\+?7/, ''),

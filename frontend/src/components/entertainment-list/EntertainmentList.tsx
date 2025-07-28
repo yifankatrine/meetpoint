@@ -27,7 +27,7 @@ const EntertainmentList = () => {
     useEffect(() => {
         const fetchEntertainments = async () => {
             try {
-                const response = await axios.get<ApiResponse>('http://localhost:5000/api/entertainments');
+                const response = await axios.get<ApiResponse>('http://31.129.58.91:5000/api/entertainments');
 
                 if (response.data.success) {
                     setEntertainments(response.data.entertainments); // Изменено с data на entertainments
